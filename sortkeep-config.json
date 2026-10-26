@@ -1,21 +1,16 @@
 {
-  "launchGraceMin": 0,
-  "interstitialCooldownMin": 2,
-  "appOpenEnabled": false,
-  "interstitialMaxPerSession": 1,
-  "placements": {
-    "sortMore": {
-      "enabled": true,
-      "cooldownMin": 2
-    }
-  },
-  "variants": [
-    {
-      "name": "T1",
-      "percent": 100,
-      "set": {
-        "interstitialMaxPerSession": 2
-      }
-    }
-  ]
+  "adsEnabled": true,
+  "interstitialsEnabled": true,
+  "rewardedEnabled": true,
+  "nativeEnabled": true,
+  "bannerEnabled": true,
+  "appOpenEnabled": true,
+  "deckAdEvery": 5,
+  "interstitialCooldownMin": 10,
+  "launchGraceMin": 10,
+  "rewardedGraceMin": 30,
+  "appOpenMinBackgroundMin": 30,
+  "appOpenAfterFullScreenMin": 2,
+  "removeAdsPromptGapHours": 24,
+  "removeAdsPromptMaxDeclines": 3
 }
