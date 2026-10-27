@@ -1,16 +1,20 @@
 {
-  "adsEnabled": true,
-  "interstitialsEnabled": true,
-  "rewardedEnabled": true,
-  "nativeEnabled": true,
-  "bannerEnabled": true,
-  "appOpenEnabled": true,
   "deckAdEvery": 8,
   "interstitialCooldownMin": 10,
   "launchGraceMin": 10,
   "rewardedGraceMin": 30,
   "appOpenMinBackgroundMin": 30,
-  "appOpenAfterFullScreenMin": 2,
+  "appOpenAfterFullScreenMin": 10,
   "removeAdsPromptGapHours": 24,
-  "removeAdsPromptMaxDeclines": 3
+  "removeAdsPromptMaxDeclines": 3,
+  "appOpenMaxPerDay": 1,
+  "interstitialMaxPerDay": 5,
+  "placements": {
+    "afterDuplicates": {
+      "enabled": true
+    },
+    "afterBatch": {
+      "enabled": true
+    }
+  }
 }
