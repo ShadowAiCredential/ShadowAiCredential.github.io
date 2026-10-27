@@ -5,7 +5,7 @@
   "nativeEnabled": true,
   "bannerEnabled": true,
   "appOpenEnabled": true,
-  "deckAdEvery": 5,
+  "deckAdEvery": 8,
   "interstitialCooldownMin": 10,
   "launchGraceMin": 10,
   "rewardedGraceMin": 30,
